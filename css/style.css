@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'arial';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/arial.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'arialbd';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/arialbd.ttf') format('truetype');
+}
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+button,
+fieldset,
+form,
+input,
+label,
+legend,
+textarea,
+select,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+a,
+b,
+i,
+u,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-size: 100%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  line-height: inherit;
+  vertical-align: baseline;
+  background: none;
+  white-space: normal;
+  transition: all 0.3s ease-in-out;
+}
+form {
+  height: inherit;
+}
+iframe {
+  width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  font-family: 'arial', sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+}
+A:link,
+A:active,
+A:hover,
+A:visited {
+  color: #000;
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1 {
+  font-family: 'arial', sans-serif;
+  font-size: 48px;
+  font-size: 3rem;
+}
+h2 {
+  font-family: 'arial', sans-serif;
+  font-size: 36px;
+  font-size: 2.25rem;
+}
+header {
+  height: 36px;
+  background: #F3F2F1;
+}
+header .container {
+  height: 100%;
+  margin: auto;
+}
+header .container .row {
+  height: 100%;
+}
+header .container .h_nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header p,
+header a {
+  margin: 0;
+  font-family: 'arial', sans-serif;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  color: #414143;
+}
+header p span,
+header a span {
+  color: #F0472C;
+}
